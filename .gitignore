@@ -1,0 +1,45 @@
+# Data & model artifacts (regenerate from notebooks/scripts)
+data/
+outputs/
+*.parquet
+*.safetensors
+*.pkl
+*.bin
+
+# Submission archive
+final-project.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets / env
+.env
+.env.local
+*.key
+
+# Logs / temp
+*.log
+.cache/
+tmp/
